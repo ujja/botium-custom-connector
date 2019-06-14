@@ -1,0 +1,22 @@
+{
+  "name": "custom-connector-example1",
+  "version": "1.0.0",
+  "scripts": {
+    "test": "mocha spec"
+  },
+  "botium": {
+    "convodirs": [
+      "spec\\convo"
+    ],
+    "expandConvos": true,
+    "expandUtterancesToConvos": false
+  },
+  "devDependencies": {
+    "botium-bindings": "latest",
+    "mocha": "latest"
+  },
+  "dependencies": {
+    "botium-core": "^1.4.15",
+    "chai": "^4.2.0"
+  }
+}

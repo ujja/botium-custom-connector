@@ -1,0 +1,9 @@
+{
+  "botium": {
+    "Capabilities": {
+      "PROJECTNAME": "custom-connector-example1",
+      "CONTAINERMODE": "ConnectorAsFile.js",
+      "CONNECTOR_AS_FILE_RESPONSE": "Hello World!"
+    }
+  }
+}
